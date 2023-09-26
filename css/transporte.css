@@ -55,9 +55,11 @@ nav ul li a.activo{
 
 footer{
     background-color: #ddd;
+    margin-top: 20px;
     padding: 20px 0;
     display: flex;
     justify-content: center;
+
 }
 
 .holder{
@@ -87,5 +89,20 @@ h2{
 .testimonio{
     background-color: #ddd;
     padding: 10px;
+
+}
+
+.testimonio .cita{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+}
+
+.testimonio .autor{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin: 12px 0;
 
 }
