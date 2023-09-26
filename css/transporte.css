@@ -106,3 +106,54 @@ h2{
     margin: 12px 0;
 
 }
+
+/*/////////FIN HOME/////////////*/
+
+/*/////////INICIO NOSOTROS/////*/
+
+.historia{
+    font-size: 13px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 5px;
+
+}
+
+.persona img{
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 0 0 2px black;
+    margin-bottom: 10px;
+}
+
+.persona h5,
+.persona h6{
+    color: #2e64a1;
+    font-weight: 400;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 14px;
+}
+
+.persona h6{
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 11px;
+    text-align: left;
+    padding: 0 3px;
+}
