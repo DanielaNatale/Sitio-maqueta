@@ -187,9 +187,12 @@ h3{
     list-style: none;
 }
 
+.formulario p{
+    display: flex;
+}
 .formulario input,
 .formulario textarea{
-    width: 80%; 
+    width: 70%; 
     gap: 20px;
     background-color: #ddd;
     border-radius: 5px;
@@ -200,8 +203,7 @@ h3{
 
 .formulario p label{
     min-width: 80px;
-    display: block;
-}
+   }
 
 .formulario textarea{
     height: 150px;
