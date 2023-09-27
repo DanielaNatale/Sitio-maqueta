@@ -47,6 +47,7 @@ nav ul li a{
 
 nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
 }
 
 nav ul li a.activo{
@@ -170,7 +171,7 @@ h3{
 
 .contacto{
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .contacto div{
@@ -178,10 +179,55 @@ h3{
 }
 
 .datos p{
-    font-size: 13px;
+    font-size: 14px;
 }
 
-.formu input,
-.formu textarea{
-    width: 90%;
+.datos ul li{
+    font-size: 13px;
+    list-style: none;
+}
+
+.formulario input,
+.formulario textarea{
+    width: 80%; 
+    gap: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: block;
+}
+
+.formulario textarea{
+    height: 150px;
+    resize: none;
+}
+
+.arriba{
+    height: 100px;
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    padding: 6px;
+    width: auto;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
+    transition: all 0.5s ease;
 }
