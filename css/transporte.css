@@ -157,3 +157,31 @@ h2{
     text-align: left;
     padding: 0 3px;
 }
+
+/*/////////FIN NOSOTROS/////////////*/
+
+/*/////////INICIO CONTACTO/////*/
+
+h3{
+    color: #2e64a1;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.contacto{
+    display: flex;
+    gap: 20px;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 13px;
+}
+
+.formu input,
+.formu textarea{
+    width: 90%;
+}
