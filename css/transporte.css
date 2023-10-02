@@ -18,7 +18,11 @@ header h1{
     position: relative;
     margin-left: 20px;
     bottom: 30px;
-    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
 }
 
 nav{
@@ -64,13 +68,18 @@ footer{
 }
 
 .holder{
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 h2{
     color:#2e64a1;
     font-weight: 300;
+}
+
+.homeimg img{
+    max-width: 100%;
+
 }
 
 .columnas{
@@ -232,4 +241,98 @@ h3{
 .formulario input[type="submit"]:hover{
     background-color: #2e64a1;
     transition: all 0.5s ease;
+}
+
+/*Fin contactos*/
+
+/*/////////Inicio servicios/////////////*/
+
+.servicio{
+    margin: 30px 0;
+}
+
+.tipo1,
+.tipo2{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    display: flex;
+    margin: 15px 0 ;
+    display: flex;
+}
+
+.tipo2{
+    flex-direction: row-reverse;
+}
+
+.texto{
+    padding: 20px;
+}
+.tipos h3{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: start;
+    margin: 0 0 10px 0;
+}
+
+hr{
+    height: 1px;
+    background-color: #2e64a1;
+}
+
+.tipos p{
+    font-size: 14px;
+}
+.tipos img{
+    border-radius: 10px;
+    margin: 17px 10px;
+}
+
+/*/////////FIN servicios/////////////*/
+
+/*/////////INICIO GALERIA/////////////*/
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria img{
+    width: 16%;
+    border: 1px solid #999;
+    padding: 5px;
+    margin: 20px 20px 20px 0;
+    
+}
+
+.galeria img:hover{
+    background-color:#6da9ed;
+    transition: all 0.3s ease;
+}
+
+
+/*/////////FIN GALERIA/////////////*/
+
+@media screen and (max-width:768px) {
+    main.holder{
+        padding: 0 30px;
+    }
+    nav ul.holder{
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .columnas{
+        flex-direction:column;
+    }
+
+    .bienvenidos,
+    .testimonios{
+        width: 100%;
+    }
 }
