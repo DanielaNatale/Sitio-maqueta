@@ -335,4 +335,31 @@ hr{
     .testimonios{
         width: 100%;
     }
+
+    .personas{
+        flex-wrap: wrap;
+    }
+
+    .persona{
+        width: 47%;
+        margin-bottom: 20px;
+    }
+
+    .contacto{
+        flex-direction: column;
+    }
+
+    header .holder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header h1{
+        position: static;
+    }
+
+    nav ul.holder{
+        flex-direction: column;
+    }
 }
