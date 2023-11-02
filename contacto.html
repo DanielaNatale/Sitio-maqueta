@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transporte X</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/transporte.css">
 </head>
+
 <body>
     <header>
         <div class="marca holder">
@@ -22,47 +25,65 @@
             <li><a href="servicios.html">Servicios</a></li>
             <li><a href="galeria.html">Galeria</a></li>
             <li><a class="activo" href="contacto.html">Contacto</a></li>
-            
+
         </ul>
     </nav>
+
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-offset="0">
+
+        <h2 id="gracias">Gracias por navegar por nuestra pagina. Esperamos pronto te contactes con nosotros!</h2>
+
+
+    </div>
+
     <main class="holder contacto">
-            <div>
-                <h3>Contacto Rápido</h3>
-                <form action="" class="formulario">
-                    <p>
-                        <label for="">Nombre</label>
-                        <input type="text">
-                    </p>
-                    <p>
-                        <label for="">Email</label>
-                        <input type="text">
-                    </p>
-                    <p>
-                        <label for="">Telefono</label>
-                        <input type="text">
-                    </p>
-                    <p>
-                        <label for="">Mensaje</label>
-                        <input type="text" class="arriba">
-                    </p>
-                    <input type="submit" value="Enviar">
-                </form>
-            </div>
-            <div class="datos">
-                    <h3>Otras vías de contacto</h3>
-                    <p>También puede comunicarse con nosotros a traves de</p>
-                    <ul>
-                        <li>Telefono: 123456789</li>
-                        <li>Email: Contacto@xtransportes.com.ar</li>
-                        <li>Facebook: facebook.com/transportesx</li>
-                        <li>twitter: @TransportesX</li>
-                        <li>skype: transportesX_skype</li>
-                    </ul>
-            </div>
+
+        <div>
+            <h3>Contacto Rápido</h3>
+            <form action="" class="formulario">
+                <p>
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre">
+                </p>
+                <p>
+                    <label for="">Email</label>
+                    <input type="text" class="email" name="email">
+                </p>
+                <p>
+                    <label for="">Telefono</label>
+                    <input type="text" name="numero">
+                </p>
+                <p>
+                    <label for="">Mensaje</label>
+                    <input type="text" class="arriba" id="mensaje">
+                </p>
+                <p id="cuantoscaracteres">Caracteres utilizados: 0</p>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="datos">
+            <h3>Otras vías de contacto</h3>
+            <p>También puede comunicarse con nosotros a traves de</p>
+            <ul>
+                <li>Telefono: 123456789</li>
+                <li>Email: Contacto@xtransportes.com.ar</li>
+                <li>Facebook: facebook.com/transportesx</li>
+                <li>twitter: @TransportesX</li>
+                <li>skype: transportesX_skype</li>
+            </ul>
+        </div>
     </main>
     <footer>
         <p>Diseñado por Daniela Natale - Septiembre 2023</p>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="Js/practica.js"></script>
 </body>
+
 </html>

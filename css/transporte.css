@@ -243,6 +243,23 @@ h3{
     transition: all 0.5s ease;
 }
 
+#cuantoscaracteres{
+    font-size: 12px;
+    margin-bottom: 20px;
+    
+}
+
+#gracias{
+    font-size: 22px;
+    margin-left: 170px;
+    padding: 30px;
+    width: 68%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
 /*Fin contactos*/
 
 /*/////////Inicio servicios/////////////*/
@@ -313,7 +330,10 @@ hr{
     transition: all 0.3s ease;
 }
 
-
+.boton{
+    display: inline-flex;
+    align-items: center;
+}
 /*/////////FIN GALERIA/////////////*/
 
 @media screen and (max-width:768px) {
